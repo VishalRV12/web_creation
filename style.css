@@ -1,0 +1,96 @@
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content : center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration : none;
+    font-size: 26px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: skyblue;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background : #088178;
+    position: absolute;
+    bottom:-4px;
+    left: 20px;
+}
+
+
+#heading.large {
+    margin-top: 0px;
+    margin-bottom: 36px;
+    margin-left: -8px;
+    font-size: 108px;
+    line-height: 1;
+    letter-spacing: -0.04em;
+}
+
+#heading {
+    margin-left: -4px;
+    font-size: 80px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: -0.04em;
+}
+
+#pic1 {
+    display: inline-block;
+    margin-left: 20%;
+}
+#btn2{
+    margin-left: 8px !important;
+}
+#heading1{
+    font-size: 100px;
+    display: inline-block;
+}
+#para1 {
+    display: inline-block;
+    font-size: 30px;
+    
+}
+#btn3 {
+    display: block;
+    width: 100%;
+    padding: 14px 28px;
+    font-size: 60px;
+    cursor: pointer;
+}
+#mem {
+    font-size: -80px;
+
+}
+#media {
+    position: absolute;
+    top: 1100px;
+    left: 1400px;
+    max-width: 90%;
+    max-height: 90%; 
+}
+
